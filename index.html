@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Dinesh Kumar</title>
+
+    <!-- SEO & Open Graph Meta Tags -->
+    <meta name="description" content="Dinesh Kumar | Full Stack Developer | Expert in Java, React, Spring Boot, and modern web technologies.">
+    <meta name="keywords" content="Dinesh Kumar, Full Stack Developer, Java, React, Spring Boot, Web Development">
+    <meta property="og:title" content="Dinesh Kumar - Full Stack Developer">
+    <meta property="og:description" content="A passionate full-stack developer specializing in Java, Spring Boot, React, and web technologies.">
+    <meta property="og:image" content="assets/profile-image.jpg">
+    <meta property="og:url" content="YOUR_PORTFOLIO_URL">
+    
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+      (function() {
+        emailjs.init({
+          publicKey: "AV88hjY-KuvPgxeaH", 
+        });
+      })();
+    </script>
+</script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.4.0/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>>
+    <script src="js/js.js"></script>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+      <div class="container-fluid px-3 px-md-5 d-flex align-items-center justify-content-between">
+          <!--Name -->
+          <a class="navbar-brand fw-bold fs-4 fs-lg-2" href="#" style="color: rgba(255, 217, 0, 0.8)">
+              Dinesh Kumar
+          </a>
+  
+          <!--Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              <i class="fas fa-bars"></i> 
+          </button>
+  
+          <!-- Nav Menu -->
+          <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+              <ul class="navbar-nav gap-2 gap-lg-4 fs-5">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><b>Home</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#Skills"><b>Skills</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#projects"><b>Projects</b></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#contact"><b>Contact</b></a>
+                  </li>
+              </ul>
+          </div>
+  
+          <!-- Social Links -->
+          <div class="d-none d-lg-flex social-links ">
+              <a href="https://www.instagram.com/_dinesh.d.k" target="_blank">
+                  <i class=" px-2 text-info fs-4 fab fa-instagram "></i>
+              </a>
+
+              <a href="https://www.linkedin.com/in/dineshkumarsdk" target="_blank">
+                  <i class="px-2 text-info  fs-4 fab fa-linkedin-in"></i>
+              </a>
+
+              <a href="github" target="_blank">
+                  <i class="px-2 text-info fs-4 fab fa-github"></i>
+              </a>
+          </div>
+      </div>
+    </header>
+    <!-- First Section (Home) -->
+    <section class="home d-flex align-items-top text-center text-md-start py-5  py-lg-5 vh-100" id="home">
+      <div class="container">
+          <div class="row justify-content-start">
+              <div class="col-12 col-md-10 col-lg-8 mt-5 mt-lg-3 px-4 pt-4" data-aos="fade-right">
+                  <h2 class="text-light fs-1 fs-md-3 fs-lg-2">
+                      Hello! I Am <br /><span class="fw-bold text-warning">DINESH KUMAR</span>
+                  </h2>
+                  <h3 class="text-warning fs-4 fs-md-3"> Java Full-Stack Developer</h3>
+
+                   <p class="text-white fs-4 fs-md-5">
+                      Building scalable, high-performance web applications with modern technologies, ensuring seamless user experiences and robust backend solutions.
+                  </p>
+
+                  <div class="mt-4">
+                      <a href="#contact" class="btn btn-warning px-3 px-md-4 py-2 py-md-3 rounded-pill fw-bold">
+                          <b>🚀 Hire Me</b>
+                      </a>
+                      <a href="#projects" class="btn btn-outline-light ms-2 ms-md-3 px-3 px-md-4 py-2 py-md-3 rounded-pill">
+                          <b>See My Work</b>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <hr class="fw-bold text-warning">
+    
+    <section class="skill py-5" id="Skills">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly pt-3 pt-lg-5">
+
+          <!-- Left Column  -->
+          
+           <div class="col-12 col-md-5 mt-5 justify-content-center mt-md-0" data-aos="slide-right">
+            <div class="heading">
+              <h2 class="text-warning fw-bold pt-5">My Skills</h2>
+              <h3 class="text-light fs-3 pt-2">Beautiful & Unique Digital Experiences</h3>
+              <p class="text-light fs-5 pt-3">
+                Creating Seamless Digital Experiences with Java & React. <br>
+                Bridging Backend Efficiency with Frontend Excellence.
+              </p>
+              
+              <a href="dineshresume.pdf" download="Dinesh_Kumar_CV.pdf" class="btn btn-warning px-3 px-md-4 py-3 py-md-3 rounded-pill fw-bold ">
+                Download CV
+              </a>
+            </div>
+          </div>
+          
+           <!-- Right Column -->
+          <div class="col-12 col-md-5 mt-4" data-aos="fade-up">    
+          <div class="row row-cols-2 row-cols-sm-3 g-3 justify-content-center">
+              <!-- Skill Card -->
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fab fa-html5 fa-3x text-danger"></i>
+                  <p class="mt-2 mb-0">HTML & CSS</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fab fa-js fa-3x text-warning"></i>
+                  <p class="mt-2 mb-0">JavaScript</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fab fa-java fa-3x text-info"></i>
+                  <p class="mt-2 mb-0">Java</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fab fa-react fa-3x text-primary"></i>
+                  <p class="mt-2 mb-0">ReactJS</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fas fa-leaf fa-3x text-success"></i>
+                  <p class="mt-2 mb-0">Spring Boot</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fas fa-database fa-3x text-primary"></i>
+                  <p class="mt-2 mb-0">MySQL</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fas fa-database fa-3x text-success"></i>
+                  <p class="mt-2 mb-0">MongoDB</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fas fa-brain fa-3x text-warning"></i>
+                  <p class="mt-2 mb-0">Machine Learning</p>
+                </div>
+              </div>
+    
+              <div class="col">
+                <div class="card text-center p-3">
+                  <i class="fas fa-paint-brush fa-3x text-info"></i>
+                  <p class="mt-2 mb-0">Tailwind CSS</p>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+    
+         
+    
+        </div>
+      </div>
+    </section>
+    
+
+    <hr class="fw-bold text-warning">
+   <!-- Project Section -->
+   <section class="project py-5 mt-5 mt-sm-0" id="projects">
+    <div class="container-fluid">
+      <div class="heading text-center pt-5 pb-3 pb-lg-5" data-aos="fade-up">
+        <h3 class="text-warning fw-bold">Check My Projects</h3>
+      </div>
+  
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-2 px-md-4 g-4">
+          
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card project-card h-100 shadow-lg border-0">
+              <img src="images/Landing-page.PNG" class="card-img-top img-fluid p-3" alt="Agriculture Landing Page" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Agriculture Product Landing Page</h4>
+                <span class="badge bg-dark rounded-pill px-3 py-2">HTML & CSS</span>
+                <span class="badge bg-dark rounded-pill px-3 py-2">JavaScript</span>
+                <span class="badge bg-dark rounded-pill px-3 py-2 mb-2">Website</span><br>
+                <a href="#" class="btn btn-outline-dark mt-2"><b>Read More</b></a>
+              </div>
+            </div>
+          </div>
+  
+         
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card project-card h-100 shadow-lg border-0">
+              <img src="images/inventory-management.png" class="card-img-top img-fluid" alt="Inventory Management System" />
+              <div class="card-body text-center">
+                <h4 class="card-title">Inventory Management System</h4>
+                <span class="badge bg-dark rounded-pill px-3 py-2">Spring Boot</span>
+                <span class="badge bg-dark rounded-pill px-3 py-2">ReactJS</span>
+                <span class="badge bg-dark rounded-pill px-3 py-2 mb-2">Web App</span><br>
+                <a href="#" class="btn btn-outline-dark mt-2"><b>Read More</b></a>
+              </div>
+            </div>
+          </div>
+  
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card project-card h-100 shadow-lg border-0">
+              <img src="images/crop-management.png" class="card-img-top img-fluid" alt="E-Commerce System" />
+              <div class="card-body text-center pt-5">
+                <h4 class="card-title">E-Commerce System</h4>
+                <span class="badge bg-dark rounded-pill px-3 py-2">ReactJS</span>
+                <span class="badge bg-dark rounded-pill px-3 py-2">Spring Boot</span>
+                <span class="badge bg-dark rounded-pill px-3 py-2 mb-2">Web App</span><br />
+                <a href="#" class="btn btn-outline-dark mt-2"><b>Read More</b></a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <hr class="fw-bold text-warning">
+<div class="contact-container bg-black">
+  <div class="contact-details">
+    <div><i class="bi bi-geo-alt-fill"></i> <span class="fw-bold">COIMBATORE</span></div>
+    <div><i class="bi bi-telephone-fill"></i> <span class="fw-bold">+91 7904481310</span></div>
+    <div><i class="bi bi-send-fill"></i> <span class="fw-bold">dineshsdk8@gmail.com</span></div>
+  </div>
+
+  <div class="contact-form">
+    <h3 class="fw-bold">Contact</h3>
+    <form id="contact" onsubmit="emailsend(event)">
+      <input type="text" id="name" name="name" placeholder="Your Name" required />
+      <input type="email" id="email" name="email" placeholder="Your Email" required />
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+    <footer class="footer py-4 text-center text-white bg-dark">
+      <div class="container">
+        <p>&copy; 2025 Dinesh Kumar. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
